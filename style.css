@@ -63,6 +63,52 @@ li {
     display: flex;
 }
 
+hr {
+    color: rgb(196, 188, 188);
+    border: none;
+    background-color: rgb(196, 188, 188);
+    height: 1px;
+
+}
+
 #results {
-    margin-left: 18em;
+    margin-left: 20.5em;
+}
+
+.result {
+    margin-bottom: 3em;
+    margin-right: 25em;
+    word-wrap: break-word;
+}
+
+.result-numbers {
+    color: #70757a;
+}
+
+.website-name {
+    color: #020911;
+}
+
+h1 {
+    color: #1a0dab;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: -0.5em;
+}
+
+p {
+    color: #4d5156;
+}
+
+.details {
+    margin-top: -0.5em;
+}
+
+.link-folder-title {
+    color: #70757a;
+}
+
+.down-icon {
+    color: #70757a;
+    cursor: pointer;
 }
