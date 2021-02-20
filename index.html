@@ -10,9 +10,29 @@
 <body>
     <nav>
         <div id="search">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google-logo">
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google-logo">
+            <form>
+                <input type="text" placeholder="build this webpage">
+                <button class="cross-button"><ion-icon name="close-outline"></ion-icon></button>
+                <button class="search-button"><ion-icon name="search-outline"></ion-icon></button>
+            </form>
         </div>
-        <div id="menus"></div>
+        <div id="menu">
+            <ul>
+                <li class="active"><ion-icon name="search-outline"></ion-icon> All</li>
+                <li><ion-icon name="play-circle-outline"></ion-icon> Videos</li>
+                <li><ion-icon name="newspaper-outline"></ion-icon> News</li>
+                <li><ion-icon name="navigate-outline"></ion-icon> Maps</li>
+                <li><ion-icon name="image-outline"></ion-icon> Images</li>
+                <li>More</li>
+                <div class="block-list">
+                    <li>Settings</li>
+                    <li>Tools</li>
+
+                </div>
+               
+            </ul>
+        </div>
     </nav>
     <section id="results"></section>
     <footer></footer>
