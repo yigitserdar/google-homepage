@@ -14,7 +14,7 @@
 }
 
 form input {
-    width: 33em;
+    width: 40em;
     margin-left: 2em;
     margin-top: 1em;
     margin-bottom: 1.2em;
@@ -38,7 +38,10 @@ form input {
 
 .search-button {
     color: #1a73e8;
+}
 
+.btn-border {
+    border-left: 1px solid #dfe1e5;
 }
 
 .cross-button {
@@ -53,7 +56,13 @@ ul {
 li {
     margin-right: 1em;
     list-style-type: none;
+    text-decoration: none;
     cursor: pointer;
+}
+
+#menu li {
+    font-weight: 100;
+    color: #4d5156;
 }
 
 .active {
@@ -80,7 +89,7 @@ hr {
 
 .result {
     margin-bottom: 3em;
-    margin-right: 25em;
+    margin-right: 55em;
     word-wrap: break-word;
 }
 
@@ -94,13 +103,26 @@ hr {
 
 h1 {
     color: #1a0dab;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: normal;
     margin-top: -0.5em;
 }
 
+.questions h1 {
+    color: #202124;
+}
+
+.questions h2 {
+    font-weight: 200;
+}
+
+.questions hr {
+    margin-right: 55em;
+}
+
 p {
     color: #4d5156;
+    font-size: 0.9em;
 }
 
 .details {
