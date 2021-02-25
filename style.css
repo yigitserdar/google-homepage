@@ -114,6 +114,11 @@ h2 {
     cursor: pointer;
 }
 
+.down-arrow-icon {
+    right: 56em;
+    position: absolute;
+}
+
 .questions h1 {
     color: #202124;
     cursor: default;
