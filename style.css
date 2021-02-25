@@ -141,3 +141,15 @@ p {
 .related-searches h1 {
     color: #020911;
 }
+
+.related-searches h2 {
+    color:#1a0dab;
+}
+
+.related-search-results {
+    display: inline-flex;
+}
+
+.related-search-results-2 {
+    padding-left: 2em;
+}
