@@ -176,3 +176,41 @@ p {
     color:#1a73e8;
     cursor: pointer;
 }
+
+footer {
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    line-height: 1em;
+    margin-top: 0.5em;
+    border-top: 1px solid #dadce0;
+    margin-bottom: -0.5em;
+}
+
+.btn-border-footer {
+    border-left: 1px solid #dadce0;
+    padding-right: 1em;
+}
+
+.dot {
+	border-radius: 100%;
+	display: inline-block;
+	height: 10px;
+	margin: 4px 4px 9px 0;
+	vertical-align: middle;
+	width: 10px;
+    background: #70757a;
+}
+
+.city {
+    color: #3c4043;
+    font-weight: bold;
+
+}
+
+.location {
+    border-bottom: 1px solid #dadce0;
+}
+
+.sub-menu {
+    padding-bottom: 0.1em;
+}
