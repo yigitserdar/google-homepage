@@ -153,3 +153,26 @@ p {
 .related-search-results-2 {
     padding-left: 2em;
 }
+
+.page-numbers {
+    padding-left: 10em;
+}
+
+.numbers {
+    padding-left: 2.5em;
+}
+
+.numbers a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.next-button {
+    padding-left: 6em;
+}
+
+.forward {
+    padding-bottom: 0.8em;
+    color:#1a73e8;
+    cursor: pointer;
+}
