@@ -42,6 +42,7 @@ form input {
 
 .btn-border {
     border-left: 1px solid #dfe1e5;
+    padding-right: 0.3em;
 }
 
 .cross-button {
@@ -106,10 +107,16 @@ h1 {
     font-size: 1.3em;
     font-weight: normal;
     margin-top: -0.5em;
+    cursor: pointer;
+}
+
+h2 {
+    cursor: pointer;
 }
 
 .questions h1 {
     color: #202124;
+    cursor: default;
 }
 
 .questions h2 {
@@ -140,6 +147,7 @@ p {
 
 .related-searches h1 {
     color: #020911;
+    cursor: default;
 }
 
 .related-searches h2 {
