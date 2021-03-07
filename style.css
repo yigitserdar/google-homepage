@@ -14,7 +14,7 @@
 }
 
 form input {
-    width: 40em;
+    width: 70%;
     margin-left: 2em;
     margin-top: 1em;
     margin-bottom: 1.2em;
@@ -90,7 +90,7 @@ hr {
 
 .result {
     margin-bottom: 3em;
-    margin-right: 55em;
+    margin-right: 30%;
     word-wrap: break-word;
 }
 
@@ -115,7 +115,7 @@ h2 {
 }
 
 .down-arrow-icon {
-    right: 56em;
+    right: 30%;
     position: absolute;
 }
 
@@ -129,7 +129,7 @@ h2 {
 }
 
 .questions hr {
-    margin-right: 55em;
+    margin-right: 30%;
 }
 
 p {
@@ -228,7 +228,7 @@ footer {
     padding-bottom: 0.1em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .logo {
         padding-top: 1em;
         padding-left: 14em;
@@ -301,4 +301,30 @@ footer {
     .page-numbers {
         padding-left: 5em;
     }
+}
+
+@media screen and (min-width: 700px) {
+
+    .logo {
+        padding-top: 1.5em;
+        padding-left: 2em;
+        max-width: 10%;
+        max-height: 10%;
+    }
+    
+    #search {
+        display: flex;
+    }
+    
+    form input {
+        width: 28em;
+        margin-left: 1em;
+        
+    }
+    
+    
+}
+
+@media screen and (min-width: 900px) {
+    
 }
