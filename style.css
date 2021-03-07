@@ -11,10 +11,11 @@
 
 #search {
     display: flex;
+    max-width: 1200px;
 }
 
 form input {
-    width: 70%;
+    width: 40em;
     margin-left: 2em;
     margin-top: 1em;
     margin-bottom: 1.2em;
@@ -51,7 +52,7 @@ form input {
 
 ul {
     display: flex;
-    margin-left: 10em;
+    margin-left: 8%;
 }
 
 li {
@@ -81,11 +82,11 @@ hr {
     border: none;
     background-color: rgb(196, 188, 188);
     height: 1px;
-
 }
 
 #results {
-    margin-left: 13em;
+    margin-left: 10%;
+    max-width: 930px;
 }
 
 .result {
@@ -117,6 +118,10 @@ h2 {
 .down-arrow-icon {
     right: 30%;
     position: absolute;
+}
+
+.questions {
+    max-width: 930px;
 }
 
 .questions h1 {
@@ -326,5 +331,27 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+    form input {
+        width: 35em;
+    }
+
+    #results {
+        margin-left: 10em;
+    }
+
+    #menu ul {
+        margin-left: 8em;
+    }
+
+    .down-arrow-icon {
+        right: 26%;
+    }
+
+}
+
+@media screen and (min-width: 1125px) {
+    .down-arrow-icon {
+        display: none;
+    }
     
 }
