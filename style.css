@@ -18,6 +18,10 @@
     max-width: 1200px;
 }
 
+form {
+    text-align: center;
+}
+
 form input {
     width: 40em;
     margin-left: 2em;
@@ -30,6 +34,11 @@ form input {
     outline: none;
     padding-left: 1em;
     
+}
+
+form input:hover,
+form input:active {
+    border: 2px solid #dfe1e5;
 }
 
 .cross-button,
@@ -59,6 +68,10 @@ ul {
     margin-left: 8%;
 }
 
+.menu-list-1 {
+    display: contents;
+}
+
 li {
     margin-right: 1em;
     list-style-type: none;
@@ -76,7 +89,7 @@ li {
     color: #1a73e8;
 }
 
-.block-list {
+.menu-list-2 {
     margin-left: 4em;
     display: flex;
 }
@@ -237,22 +250,49 @@ footer {
     padding-bottom: 0.1em;
 }
 
-@media only screen and (max-width: 550px) {
-.logo {
-    padding-left: 0% !important;
+@media only screen and (max-width: 390px) {
+    #results {
+        margin-left: 3% !important;
+    }
 }
 
-.google-logo-div {
-    display: block;
-    text-align: center;
+@media only screen and (max-width: 500px) {
+    .page-numbers {
+        padding-left: 0 !important;
+        text-align: center;
+    }
 }
+
+@media only screen and (max-width: 550px) {
+    .logo {
+        padding-left: 0% !important;
+    }
+
+    .google-logo-div {
+        display: block;
+        text-align: center;
+    }
     form {
         text-align: center;
     }
 
     form input {
         width: 15em !important;
+    }
 
+    #menu ul {
+        display: grid;
+    }
+
+    .menu-list-1 {
+        display: flex;
+    }
+
+    .menu-list-2 {
+        text-align: center;
+        margin-left: 0 !important;
+        justify-content: center;
+        margin-top: 1em;
     }
 
     }
@@ -298,7 +338,7 @@ footer {
         color: #1a73e8;
     }
     
-    .block-list {
+    .menu-list-2 {
         margin-left: 3em;
         display: flex;
     }
